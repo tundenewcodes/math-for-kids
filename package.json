@@ -1,0 +1,16 @@
+{
+    "name": "newtailwind",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tailwindcss -i ./styles.css -o ./css/styles.css",
+        "watch": "tailwindcss -i ./styles.css -o ./css/styles.css --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "tailwindcss": "^3.0.24"
+    }
+}
